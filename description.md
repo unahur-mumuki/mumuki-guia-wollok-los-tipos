@@ -1,0 +1,1 @@
+Para reflexionar un poco sobre los tipos, que en Wollok no se ven pero están ahí.
