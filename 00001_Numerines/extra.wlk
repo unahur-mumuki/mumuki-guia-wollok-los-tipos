@@ -1,1 +1,1 @@
-const numerines = [3,5,8,22,9,6,15]
+var numerines = [3,5,8,22,9,6,15]
