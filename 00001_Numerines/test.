@@ -1,2 +1,5 @@
----
-equal: numerines.any { n => n.between(7,17) }
+const numerines = [3,5,8,22,9,6,15]
+
+test "es correcto" {
+  assert.equals([8, 9, 15], /*...content...*/)
+}

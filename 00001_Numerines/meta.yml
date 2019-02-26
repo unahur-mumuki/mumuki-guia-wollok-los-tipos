@@ -4,7 +4,6 @@ layout: input_right
 editor: single_choice
 type: problem
 extra_visible: false
-language: text
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
@@ -12,5 +11,5 @@ choices:
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: numerines.any { n => n.between(7,17) }
-  checked: true
+  checked: false
 name: Numerines
