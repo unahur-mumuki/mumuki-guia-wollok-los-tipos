@@ -1,1 +1,1 @@
-const resultadoFilter = //completar
+var resultadoFilter = //completar
