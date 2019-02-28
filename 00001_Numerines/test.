@@ -5,9 +5,9 @@ test "filter" {
   )
 }
 
-test "filter" {
-  assert.equals(
-    numerines.valor().filter { n => n.between(7,17) }, 
-    resultados.filter()
+test "any" {
+  assert.that(
+    numerines.valor().any { n => n.between(7,17) } == 
+    resultados.any()
   )
 }
