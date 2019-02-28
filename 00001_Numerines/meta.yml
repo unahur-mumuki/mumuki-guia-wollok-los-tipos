@@ -1,15 +1,9 @@
 ---
 tags: []
 layout: input_right
-editor: single_choice
+editor: code
 type: problem
 extra_visible: false
 manual_evaluation: false
-choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: numerines.filter { n => n.between(7,17) }
-  checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: numerines.any { n => n.between(7,17) }
-  checked: false
+choices: []
 name: Numerines
