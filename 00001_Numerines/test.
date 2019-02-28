@@ -1,3 +1,6 @@
 test "filter" {
-  assert.equals([8, 9, 15], resultados.filter())
+  assert.equals(
+    numerines.filter { n => n.between(7,17) }, 
+    resultados.filter()
+  )
 }

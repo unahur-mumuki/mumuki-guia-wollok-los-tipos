@@ -10,4 +10,4 @@ numerines.all { n => n.between(7,17) }
 numerines.count { n => n.between(7,17) }
 ```
 
-> Completá el editor con el resultado de evaluar cada una de las expresiones.
+> Completá los métodos del objeto `resultados` con el resultado de evaluar cada una de las expresiones.
