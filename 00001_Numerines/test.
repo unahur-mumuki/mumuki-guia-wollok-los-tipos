@@ -1,5 +1,4 @@
-var numerines = [3,5,8,22,9,6,15]
-
 test "filter" {
+  var numerines = [3,5,8,22,9,6,15]
   assert.equals([8, 9, 15], resultadoFilter)
 }
