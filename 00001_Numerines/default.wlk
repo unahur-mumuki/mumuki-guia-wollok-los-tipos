@@ -1,1 +1,3 @@
-var resultadoFilter = //completar
+object resultados {
+  method filter() = //completar
+}
