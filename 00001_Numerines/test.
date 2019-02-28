@@ -11,3 +11,24 @@ test "any" {
     resultados.any()
   )
 }
+
+test "find" {
+  assert.that(
+    numerines.valor().find { n => n.between(7,17) } == 
+    resultados.find()
+  )
+}
+
+test "all" {
+  assert.that(
+    numerines.valor().all { n => n.between(7,17) } == 
+    resultados.all()
+  )
+}
+
+test "count" {
+  assert.that(
+    numerines.valor().count { n => n.between(7,17) } == 
+    resultados.count()
+  )
+}
