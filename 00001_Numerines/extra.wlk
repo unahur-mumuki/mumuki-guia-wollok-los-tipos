@@ -1,1 +1,3 @@
-var numerines = [3,5,8,22,9,6,15]
+object numerines {
+  method valor() = [3,5,8,22,9,6,15]
+}
