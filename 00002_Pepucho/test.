@@ -1,0 +1,3 @@
+test "pipi" {
+  assert.equals(100, pepita.energia())
+}
