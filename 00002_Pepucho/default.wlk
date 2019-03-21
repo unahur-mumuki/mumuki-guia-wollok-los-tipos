@@ -1,3 +1,3 @@
 object pepita {
-  method energia() { return 20 }
+  method energia() { return 100 }
 }
