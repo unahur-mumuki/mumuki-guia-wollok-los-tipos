@@ -1,34 +1,38 @@
-test "filter" {
-  assert.that(
-    numerines.valor().filter { n => n.between(7,17) } ==
-    resultados.filter()
-  )
-}
-
-test "any" {
-  assert.that(
-    numerines.valor().any { n => n.between(7,17) } == 
-    resultados.any()
-  )
-}
-
-test "find" {
-  assert.that(
-    numerines.valor().find { n => n.between(7,17) } == 
-    resultados.find()
-  )
-}
-
-test "all" {
-  assert.that(
-    numerines.valor().all { n => n.between(7,17) } == 
-    resultados.all()
-  )
-}
-
-test "count" {
-  assert.that(
-    numerines.valor().count { n => n.between(7,17) } == 
-    resultados.count()
-  )
+describe "numerines" {
+  const numerines = [3,5,8,22,9,6,15]
+ 
+  test "filter" {
+    assert.equals(
+      numerines.filter { n => n.between(7,17) },
+      resultados.filter()
+    )
+  }
+  
+  test "any" {
+    assert.that(
+      numerines.valor().any { n => n.between(7,17) } == 
+      resultados.any()
+    )
+  }
+  
+  test "find" {
+    assert.that(
+      numerines.valor().find { n => n.between(7,17) } == 
+      resultados.find()
+    )
+  }
+  
+  test "all" {
+    assert.that(
+      numerines.valor().all { n => n.between(7,17) } == 
+      resultados.all()
+    )
+  }
+  
+  test "count" {
+    assert.that(
+      numerines.valor().count { n => n.between(7,17) } == 
+      resultados.count()
+    )
+  }
 }
