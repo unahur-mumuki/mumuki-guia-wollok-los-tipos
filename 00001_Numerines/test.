@@ -1,9 +1,11 @@
 describe "numerines" {
   const numerines = [3,5,8,22,9,6,15]
  
+  // Usamos that en vez de equals para que no se vea el resultado.
+ 
   test "filter" {
-    assert.equals(
-      numerines.filter { n => n.between(7,17) },
+    assert.that(
+      numerines.filter { n => n.between(7,17) } ==
       resultados.filter()
     )
   }
