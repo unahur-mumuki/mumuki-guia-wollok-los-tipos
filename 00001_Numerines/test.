@@ -1,40 +1,35 @@
-describe "numerines" {
-  const numerines = [3,5,8,22,9,6,15]
- 
-  // Usamos that en vez de equals para que no se vea el resultado.
- 
-  test "filter" {
-    assert.that(
-      numerines.filter { n => n.between(7,17) } ==
-      resultados.filter()
-    )
-  }
   
-  test "any" {
-    assert.that(
-      numerines.any { n => n.between(7,17) } == 
-      resultados.any()
-    )
-  }
-  
-  test "find" {
-    assert.that(
-      numerines.find { n => n.between(7,17) } == 
-      resultados.find()
-    )
-  }
-  
-  test "all" {
-    assert.that(
-      numerines.all { n => n.between(7,17) } == 
-      resultados.all()
-    )
-  }
-  
-  test "count" {
-    assert.that(
-      numerines.count { n => n.between(7,17) } == 
-      resultados.count()
-    )
-  }
+test "filter" {
+  assert.that(
+    numerines.valor().filter { n => n.between(7,17) } ==
+    resultados.filter()
+  )
+}
+
+test "any" {
+  assert.that(
+    numerines.valor().any { n => n.between(7,17) } == 
+    resultados.any()
+  )
+}
+
+test "find" {
+  assert.that(
+    numerines.valor().find { n => n.between(7,17) } == 
+    resultados.find()
+  )
+}
+
+test "all" {
+  assert.that(
+    numerines.valor().all { n => n.between(7,17) } == 
+    resultados.all()
+  )
+}
+
+test "count" {
+  assert.that(
+    numerines.valor().count { n => n.between(7,17) } == 
+    resultados.count()
+  )
 }
