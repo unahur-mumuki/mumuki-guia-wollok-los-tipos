@@ -4,35 +4,35 @@ describe "Resultado de" {
   test "filter" {
     assert.that(
       numerines.filter { n => n.between(7,17) } ==
-      resultados.filter()
+      resultadoFilter
     )
   }
   
   test "any" {
     assert.that(
       numerines.any { n => n.between(7,17) } == 
-      resultados.any()
+      resultadosAny
     )
   }
   
   test "find" {
     assert.that(
       numerines.find { n => n.between(7,17) } == 
-      resultados.find()
+      resultadosFind
     )
   }
   
   test "all" {
     assert.that(
       numerines.all { n => n.between(7,17) } == 
-      resultados.all()
+      resultadoAll
     )
   }
   
   test "count" {
     assert.that(
       numerines.count { n => n.between(7,17) } == 
-      resultados.count()
+      resultadoCount
     )
   }
 }

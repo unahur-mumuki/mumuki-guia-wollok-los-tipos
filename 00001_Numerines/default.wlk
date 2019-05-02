@@ -1,7 +1,6 @@
-object resultados {
-  method filter() = // completar
-  method any() = // completar
-  method find() = // completar
-  method all() = // completar
-  method count() = // completar
+const resultadoFilter = // completar
+const resultadoAny = // completar
+const resultadoFind = // completar
+const resultadoAll = // completar
+const resultadoCount = // completar
 }
