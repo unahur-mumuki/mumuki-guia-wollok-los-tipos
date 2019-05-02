@@ -1,0 +1,3 @@
+test {
+  assert.that(1 < 2)
+}
