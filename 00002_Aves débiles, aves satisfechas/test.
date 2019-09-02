@@ -1,0 +1,3 @@
+test "energia de Pepita" {
+  assert.equals(320, pepita.energia())
+}
