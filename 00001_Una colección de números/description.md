@@ -10,4 +10,6 @@ numerines.all { n => n.between(7,17) }
 numerines.count { n => n.between(7,17) }
 ```
 
-> Completá los métodos del objeto `resultados` con el resultado de evaluar cada una de las expresiones.
+Completá los atributos del objeto `resultados` con el resultado de evaluar cada una de las expresiones.
+
+Te proponemos que **primero respondas sin probar** en Wollok, y veas si lo que pusiste es correcto. En lo que hayas fallado, ahí sí andá a Wollok y fijate qué pasó.
