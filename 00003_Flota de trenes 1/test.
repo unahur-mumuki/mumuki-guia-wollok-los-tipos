@@ -1,3 +1,0 @@
-test "chucu1 va tranca" {
-  assert.that(chucu1.vaTranca())
-}
