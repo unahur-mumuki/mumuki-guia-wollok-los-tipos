@@ -1,3 +1,27 @@
-test "energia de Pepita" {
-  assert.equals(320, pepita.energia())
+test "aves satisfechas - originales" {
+  assert.equals([pepita, enriqueta], bandada.avesSatisfechas())
+}
+
+test "hay serenidad - originales" {
+  assert.that(bandada.haySerenidad())
+}
+
+test "miembro buena onda - originales" {
+  assert.that([pepita, enriqueta].contains(bandada.miembroBuenaOnda()))
+}
+
+test "total serenidad - originales" {
+  assert.notThat(bandada.totalSerenidad())
+}
+
+test "medida de satisfacción - originales" {
+  assert.equals(2, bandada.medidaDeSatisfaccion())
+}
+
+test "aves intermedias - originales" {
+  assert.equals([juanita], bandada.avesIntermedias())
+}
+
+test "hay que reforzar - originales" {
+  assert.notThat(bandada.hayQueReforzar())
 }

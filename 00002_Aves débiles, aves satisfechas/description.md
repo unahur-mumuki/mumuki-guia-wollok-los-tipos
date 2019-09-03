@@ -16,5 +16,5 @@ Agregarle a la `bandada` los siguientes métodos, para cada uno se indica lo que
 - `totalSerenidad()`: indica si todas las aves están satisfechas. 
 - `medidaDeSatisfaccion()`: cuántas de las aves de la bandada están satisfechas.
 - `avesIntermedias()`: las aves de la bandada que no están ni débiles ni satisfechas.
-
+- `hayQueReforzar()`: indica si hay al menos un avel débil.
 
