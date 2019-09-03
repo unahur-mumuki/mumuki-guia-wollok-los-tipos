@@ -15,5 +15,5 @@ class Golondrina {
 const pepita = new Golondrina(320)
 const juanita = new Golondrina(120)
 const enriqueta = new Golondrina(250)
-
+const leticia = new Golondrina(20)
 
