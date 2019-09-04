@@ -20,6 +20,3 @@ Los objetos que programamos nosotros van compartiendo tipos de acuerdo a los men
 
 Pensar qué tipos tiene un objeto puede ser muy útil a la hora de programar, para entender qué métodos tengo que ponerle a un objeto, o si puedo o no usar un objeto en un determinado lugar (p.ej. pasárselo como pupilo a `roque`).
 
-Los distintos mensajes que entienden las colecciones 
-
-En esta guía, vamos a pa
