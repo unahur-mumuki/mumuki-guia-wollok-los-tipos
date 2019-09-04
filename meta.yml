@@ -8,4 +8,5 @@ language: wollok
 id_format: "%05d"
 order:
 - 3
+- 4
 private: false
