@@ -1,0 +1,25 @@
+---
+tags: []
+layout: input_right
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.destinosSoleados() + 1`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.destinosSoleados().size() + 1`"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.destinosSoleados() and agencia.tieneDestinosCopados()`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.destinosSoleados().costoHotel()`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.unDestinoSoleado().costoHotel()`"
+  checked: true
+name: Destinos soleados
