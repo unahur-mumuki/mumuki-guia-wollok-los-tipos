@@ -43,4 +43,16 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`agencia.muchoSol().cantidadMuseos()`"
   checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.totalMuseos() + 1`"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.totalMuseos().size() + 1`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.totalMuseos() and agencia.tieneDestinosCopados()`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.totalMuseos().cantidadMuseos()`"
+  checked: false
 name: Destinos soleados

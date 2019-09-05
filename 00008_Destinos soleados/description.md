@@ -19,6 +19,10 @@ object agencia {
   method muchoSol() { 
     return destinos.count({destino => destino.haySol()}) > 1
   }
+  
+  method totalMuseos() {
+    return destinos.sum({destino => destino.cantidadMuseos()})
+  }
 }
 ```
 
