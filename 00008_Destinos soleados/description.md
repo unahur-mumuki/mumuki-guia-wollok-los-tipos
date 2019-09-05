@@ -15,6 +15,10 @@ object agencia {
   method tieneDestinosCopados() {
     return destinos.any({ destino => destino.haySol() and destino.cantidadMuseos() > 10 })
   }
+  
+  method muchoSol() { 
+    return destinos.count({destino => destino.haySol()}) > 1
+  }
 }
 ```
 
