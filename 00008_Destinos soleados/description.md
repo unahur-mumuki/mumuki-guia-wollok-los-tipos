@@ -1,3 +1,5 @@
+El siguiente objeto es un modelo muuuuy parcial de una agencia de turismo. 
+
 ```wollok
 object agencia {
   var destinos = [encarnacion, salvadorDeBahia, potosi]
@@ -16,4 +18,8 @@ object agencia {
 }
 ```
 
-> ¿Cuáles de las siguientes expresiones son correctas, o sea, entregan un resultado?
+Cada destino es un objeto al que se le puede preguntar `haySol()` y `cantidadMuseos()`, como las ciudades del ejercicio "Ema en ciudades" de la guía de objetos y mensajes.
+
+A partir de esta definición, se arman varias expresiones, que se podrían p.ej. evaluar en un REPL. Algunas son correctas, otras dan error al evaluarlas.
+
+> ¿Cuáles de las expresiones son correctas, o sea, se pueden evaluar sin que dé error?

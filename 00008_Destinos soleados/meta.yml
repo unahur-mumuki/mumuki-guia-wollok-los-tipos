@@ -17,9 +17,9 @@ choices:
   value: "`agencia.destinosSoleados() and agencia.tieneDestinosCopados()`"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`agencia.destinosSoleados().costoHotel()`"
+  value: "`agencia.destinosSoleados().cantidadMuseos()`"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`agencia.unDestinoSoleado().costoHotel()`"
+  value: "`agencia.unDestinoSoleado().cantidadMuseos()`"
   checked: true
 name: Destinos soleados
